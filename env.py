@@ -28,9 +28,9 @@ from gym import spaces
 from gym import utils
 import numpy as np
 
-from third_party.clevr_robot_env_utils.generate_question import generate_question_from_scene_struct
-import third_party.clevr_robot_env_utils.generate_scene as gs
-import third_party.clevr_robot_env_utils.question_engine as qeng
+from .third_party.clevr_robot_env_utils.generate_question import generate_question_from_scene_struct
+from .third_party.clevr_robot_env_utils import generate_scene as gs
+from .third_party.clevr_robot_env_utils import question_engine as qeng
 
 from clevr_robot_env.utils import load_utils
 from clevr_robot_env.utils.xml_utils import convert_scene_to_xml
