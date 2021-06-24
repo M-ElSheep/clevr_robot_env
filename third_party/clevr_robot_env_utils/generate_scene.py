@@ -86,9 +86,11 @@ def add_random_objects(scene_struct,
     # shape_mapping = [('sphere', 'sphere'), ('box', 'cube'),
     #                  ('cylinder', 'cylinder')]
     shape_mapping = [('sphere', 'sphere')]
+    # color_mapping = [('red', '1 0.1 0.1 1'), ('blue', '0.2 0.5 1 1'),
+    #                  ('green', '0.2 1 0 1'), ('purple', '0.8 0.2 1 1'),
+    #                  ('cyan', '0.2 1 1 1')]
     color_mapping = [('red', '1 0.1 0.1 1'), ('blue', '0.2 0.5 1 1'),
-                     ('green', '0.2 1 0 1'), ('purple', '0.8 0.2 1 1'),
-                     ('cyan', '0.2 1 1 1')]
+                     ('green', '0.2 1 0 1')]
     material_mapping = ['rubber']
   else:
     size_mapping = metadata['types']['SizeValue']
