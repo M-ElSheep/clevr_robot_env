@@ -20,7 +20,8 @@ import re
 import time
 
 try:
-  import third_party.clevr_robot_env_utils.question_engine as qeng
+  # import third_party.clevr_robot_env_utils.question_engine as qeng
+  from ..clevr_robot_env_utils import question_engine as qeng
 except ImportError as e:
   print(e)
 
